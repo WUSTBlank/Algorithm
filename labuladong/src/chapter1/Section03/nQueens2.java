@@ -1,11 +1,10 @@
-package chapter1;
+package chapter1.Section03;
 
 /**
  * @author Sharon
- * @date 2021-01-28
- * https://leetcode-cn.com/problems/n-queens/
+ * @date 2021-01-28 https://leetcode-cn.com/problems/n-queens/
  */
-public class Section03nQueens2 {
+public class nQueens2 {
 
     public int totalnQueens(int n) {
         if (n <= 0) {
@@ -60,7 +59,7 @@ public class Section03nQueens2 {
     }
 
     public static void main(String[] args) {
-        Section03nQueens2 test = new Section03nQueens2();
+        nQueens2 test = new nQueens2();
         System.out.println(test.totalnQueens(1));
     }
 

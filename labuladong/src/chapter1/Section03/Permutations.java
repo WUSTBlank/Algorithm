@@ -1,14 +1,13 @@
-package chapter1;
+package chapter1.Section03;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author Sharon
- * @date 2021-01-28
- * https://leetcode-cn.com/problems/permutations/
+ * @date 2021-01-28 https://leetcode-cn.com/problems/permutations/
  */
-public class Section03Permutations {
+public class Permutations {
 
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
@@ -37,7 +36,7 @@ public class Section03Permutations {
     }
 
     public static void main(String[] args) {
-        Section03Permutations test = new Section03Permutations();
+        Permutations test = new Permutations();
         System.out.println(test.permute(new int[] {1, 2, 3}));
     }
 

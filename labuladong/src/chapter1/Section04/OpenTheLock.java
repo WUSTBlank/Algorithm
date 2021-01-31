@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.Section04;
 
 import java.util.Collections;
 import java.util.HashSet;
@@ -6,10 +6,9 @@ import java.util.Set;
 
 /**
  * @author Sharon
- * @date 2021-01-28
- * https://leetcode-cn.com/problems/open-the-lock/
+ * @date 2021-01-28 https://leetcode-cn.com/problems/open-the-lock/
  */
-public class Section04OpenTheLock {
+public class OpenTheLock {
 
     public int openLock(String[] deadends, String target) {
         String initCode = "0000";
@@ -74,7 +73,7 @@ public class Section04OpenTheLock {
     }
 
     public static void main(String[] args) {
-        Section04OpenTheLock test = new Section04OpenTheLock();
+        OpenTheLock test = new OpenTheLock();
         String[] deadends = new String[] {"0201", "0101", "0102", "1212", "2002"};
         System.out.println(test.openLock(deadends, "0202"));
     }

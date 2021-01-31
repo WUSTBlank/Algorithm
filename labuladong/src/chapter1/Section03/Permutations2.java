@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.Section03;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,10 +6,9 @@ import java.util.List;
 
 /**
  * @author Sharon
- * @date 2021-01-28
- *  https://leetcode-cn.com/problems/permutations-ii/
+ * @date 2021-01-28 https://leetcode-cn.com/problems/permutations-ii/
  */
-public class Section03Permutations2 {
+public class Permutations2 {
 
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
@@ -43,7 +42,7 @@ public class Section03Permutations2 {
     }
 
     public static void main(String[] args) {
-        Section03Permutations2 test = new Section03Permutations2();
+        Permutations2 test = new Permutations2();
         System.out.println(test.permuteUnique(new int[] {1, 1, 2}));
     }
 

@@ -1,14 +1,13 @@
-package chapter1;
+package chapter1.Section03;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author Sharon
- * @date 2021-01-28
- * https://leetcode-cn.com/problems/n-queens/
+ * @date 2021-01-28 https://leetcode-cn.com/problems/n-queens/
  */
-public class Section03nQueens {
+public class nQueens {
 
     public List<List<String>> solvenQueens(int n) {
         List<List<String>> result = new ArrayList<>();
@@ -72,7 +71,7 @@ public class Section03nQueens {
     }
 
     public static void main(String[] args) {
-        Section03nQueens test = new Section03nQueens();
+        nQueens test = new nQueens();
         System.out.println(test.solvenQueens(5).toString());
     }
 

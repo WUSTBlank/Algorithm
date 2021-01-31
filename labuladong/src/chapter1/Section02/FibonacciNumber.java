@@ -1,11 +1,10 @@
-package chapter1;
+package chapter1.Section02;
 
 /**
  * @author Sharon
- * @date 2021-01-28
- * https://leetcode-cn.com/problems/fibonacci-number/
+ * @date 2021-01-28 https://leetcode-cn.com/problems/fibonacci-number/
  */
-public class Section02FibonacciNumber {
+public class FibonacciNumber {
 
     public int fib(int n) {
         if (n <= 0) {
@@ -24,7 +23,7 @@ public class Section02FibonacciNumber {
     }
 
     public static void main(String[] args) {
-        Section02FibonacciNumber test = new Section02FibonacciNumber();
+        FibonacciNumber test = new FibonacciNumber();
         System.out.println(test.fib(1));
         System.out.println(test.fib(2));
         System.out.println(test.fib(6));

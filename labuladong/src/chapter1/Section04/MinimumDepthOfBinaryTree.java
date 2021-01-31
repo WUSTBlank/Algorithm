@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.Section04;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -8,10 +8,9 @@ import common.TreeNode;
 
 /**
  * @author Sharon
- * @date 2021-01-28
- * https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
+ * @date 2021-01-28 https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
  */
-public class Section04MinimumDepthOfBinaryTree {
+public class MinimumDepthOfBinaryTree {
 
     public int minDepth(TreeNode root) {
         if (root == null) {
@@ -36,7 +35,7 @@ public class Section04MinimumDepthOfBinaryTree {
     }
 
     public static void main(String[] args) {
-        Section04MinimumDepthOfBinaryTree test = new Section04MinimumDepthOfBinaryTree();
+        MinimumDepthOfBinaryTree test = new MinimumDepthOfBinaryTree();
         System.out.println(test.minDepth(InitData.binaryTree()));
     }
 

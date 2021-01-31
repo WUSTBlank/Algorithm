@@ -1,13 +1,12 @@
-package chapter1;
+package chapter1.Section02;
 
 import java.util.Arrays;
 
 /**
  * @author Sharon
- * @date 2021-01-28
- * https://leetcode-cn.com/problems/coin-change-2/
+ * @date 2021-01-28 https://leetcode-cn.com/problems/coin-change-2/
  */
-public class Section02CoinChange2 {
+public class CoinChange2 {
 
     public int change(int amount, int[] coins) {
         if (amount <= 0) {
@@ -25,7 +24,7 @@ public class Section02CoinChange2 {
     }
 
     public static void main(String[] args) {
-        Section02CoinChange2 test = new Section02CoinChange2();
+        CoinChange2 test = new CoinChange2();
         System.out.println(test.change(5, new int[] {1, 2, 5}));
     }
 
